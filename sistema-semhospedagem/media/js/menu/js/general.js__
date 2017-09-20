@@ -1,0 +1,104 @@
+$(document).ready(function(){
+    lastBlock = $("#a1");
+    maxWidth = 844;
+    minWidth = 44;	
+	
+    $("#banner .slide").click(
+      function(){
+        $(lastBlock).animate({width: minWidth+"px"}, {queue:false, duration:400});
+	$(this).animate({width: maxWidth+"px"}, {queue:false, duration:420});
+	lastBlock = this;
+      }
+    );
+	$("#leftcolumn ul.network > :nth-child(3n+3)").css({marginRight: "0"});
+		$(".network li").hover(function(){
+		$(this).find('span').animate({opacity: 0.7},400);
+		},function(){
+		$(this).find('span').animate({opacity: 0},400);
+		});
+		$(".network li p").css({display: "none"}); // Opera Fix
+			$(".network li").hover(function(){
+		$(this).find('p').css({visibility: "visible",display: "none"}).show(300);
+		},function(){
+		$(this).find('p').css({}).hide(300);
+		});
+			$("#nav ul ul").css({display: "none"}); // Opera Fix
+$("#nav ul li").hover(function(){
+		$(this).find('ul:first').css({visibility: "visible",display: "none"}).slideDown(400);
+		},function(){
+		$(this).find('ul:first').css({visibility: "hidden"});
+		});
+				$("#nav ul li ul").each(function(i){
+      $(this).hover(function(){
+        $(this).parent().find("a").slice(0,1).addClass("active");
+      },function(){
+        $(this).parent().find("a").slice(0,1).removeClass("active");
+      });
+    });	
+	$("#submitform").ajaxForm({
+			target: '#error',
+			success: function() {
+			$('#error').animate({ opacity: 1 }, 400);
+			}
+		});  
+	$("table").delegate('td','mouseover mouseleave', function(e) {
+    if (e.type == 'mouseover') {
+      $("colgroup").eq($(this).index()).addClass("bold");
+    }
+    else {
+      $("colgroup").eq($(this).index()).removeClass("bold");
+    }
+});
+});
+Cufon.replace('#banner h2',{
+fontFamily: 'Century Gothic',
+textShadow: '#000 1px 1px'
+});
+Cufon.replace('#subbanner h2',{
+fontFamily: 'Century Gothic',
+textShadow: '#000 1px 1px'
+});
+Cufon.replace('#banner h3',{
+fontFamily: 'Century Gothic'
+});
+Cufon.replace('.price strong',{
+fontFamily: 'Century Gothic'
+});
+Cufon.replace('ul:has(ul) > li   a',{
+fontFamily: 'Century Gothic',
+hover: 'true'
+});
+Cufon.replace('#leftcolumn h2',{
+fontFamily: 'Century Gothic'
+});
+Cufon.replace('#leftcolumn h3',{
+fontFamily: 'Century Gothic'
+});
+Cufon.replace('#fullcolumn h2',{
+fontFamily: 'Century Gothic'
+});
+Cufon.replace('#fullcolumn h3',{
+fontFamily: 'Century Gothic'
+});
+Cufon.replace('#rightcolumn h3',{
+fontFamily: 'Century Gothic'
+});
+Cufon.replace('#bar h4',{
+fontFamily: 'Century Gothic',
+textShadow: '1px 1px #427604;'
+});
+Cufon.replace('#fullcolumn th',{
+fontFamily: 'Century Gothic',
+textShadow: '1px 1px white;'
+});
+Cufon.replace('#fullcolumn .subth td',{
+fontFamily: 'Museo Sans 900',
+textShadow: '1px 1px #336105;'
+});
+Cufon.replace('#mainfooter h5',{
+fontFamily: 'Century Gothic',
+textShadow: '1px 1px #000000;'
+});
+Cufon.replace('#rightcolumn .box ul li',{
+fontFamily: 'Century Gothic'
+});Cufon.replace('h1', { fontFamily: 'Swis721 Hv BT' });Cufon.replace('header ul li a', { fontFamily: 'Century Gothic', hover:true });Cufon.replace('h2', { fontFamily: 'Century Gothic' })Cufon.replace('h3', { fontFamily: 'Century Gothic' })Cufon.replace('.box h2', { fontFamily: 'Century Gothic' })
