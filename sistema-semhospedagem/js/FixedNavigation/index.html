@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>Beautiful Fixed Slide Out Navigation - Codrops</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8"/>
+    </head>
+    
+    <body>
+        <div class="header"></div>
+        <ul id="navigation">
+            <li class="home"><a href=""><span>Home</span></a></li>
+            <li class="about"><a href="javascript:teste();"><span>Cadastrar</span></a></li>
+            <li class="about"><a href=""><span>Entrar</span></a></li>
+            <li class="contact"><a href=""><span>Contact</span></a></li>
+        </ul>
+
+
+        <script type="text/javascript" src="jquery-1.3.2.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                var d=300;
+                $('#navigation a').each(function(){
+                    $(this).stop().animate({
+                        'marginTop':'-80px'
+                    },d+=150);
+                });
+
+                $('#navigation > li').hover(
+                function () {
+                    $('a',$(this)).stop().animate({
+                        'marginTop':'-2px'
+                    },200);
+                },
+                function () {
+                    $('a',$(this)).stop().animate({
+                        'marginTop':'-80px'
+                    },200);
+                }
+            );
+            });
+
+		function teste(){
+		 
+		}
+
+        </script>
+    </body>
+</html>
