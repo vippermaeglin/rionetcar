@@ -1,0 +1,24 @@
+<?php
+/****************************************************************
+* Script         : Oracle test example for PhpSimpleXlsGen
+* Project        : PHP SimpleXlsGen
+* Author         : Erol Ozcan <eozcan@superonline.com>
+* Version        : 0.2
+* Copyright      : GNU LGPL
+* URL            : http://psxlsgen.sourceforge.net
+* Last modified  : 19 May 2001
+******************************************************************/
+include( "psxlsgen.php" );
+include( "db_sxlsgen.php" );
+
+// please change the values as your need
+$myxls = new Db_SXlsGen;
+$myxls->db_type = "oci8";
+$myxls->db_name = "";
+$myxls->db_user = "scott";
+$myxls->db_passwd = "tiger";
+
+$myxls->filename = "test_oci8";
+$myxls->get_type = 0;
+$myxls->col_aliases = array( "EMPNO"=> "Emp No", "JOB" => "Job", "ENAME" => "Employee Name", "MGR" => "Manager", "DNAME" => "Dept. Name" );
+$myxls->GetXlsFromQuery( "SELECT e.empno,e.ename,e.job,e.mgr,d.dname FROM emp e,dept d WHERE e.deptno=d.deptno ORDER BY e.ename" );

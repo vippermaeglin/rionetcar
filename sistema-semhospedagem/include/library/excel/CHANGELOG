@@ -1,0 +1,21 @@
+------------------------------------------------------------------------------
+2001-06-13 11:10 GMT+0200
+
+0.3 - added ODBC support with an example
+    - date("r") and header cache tag problems for older systems are fixed
+      ( Thanks to Pierluigi Miranda <Pierluigi.Miranda@agecontrol.it> )
+
+------------------------------------------------------------------------------
+2001-05-19 17:20 GMT+0200
+
+0.2 - Oracle (oci8) bugs fixed and an example added
+    - added support for current db connection ( no new login needed )
+    - added control for close db connection
+    - added header text line for xls table
+    - MySQL examples seperated to the files
+    - Some syntax corrected
+------------------------------------------------------------------------------
+2001-05-17 20:35 GMT+0200
+
+0.1 - *** Initial Code Release ***
+------------------------------------------------------------------------------

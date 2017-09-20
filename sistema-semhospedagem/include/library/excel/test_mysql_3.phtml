@@ -1,0 +1,38 @@
+<?php
+/****************************************************************
+* Script         : MySQL test example for PhpSimpleXlsGen
+* Project        : PHP SimpleXlsGen
+* Author         : Erol Ozcan <eozcan@superonline.com>
+* Version        : 0.2
+* Copyright      : GNU LGPL
+* URL            : http://psxlsgen.sourceforge.net
+* Last modified  : 19 May 2001
+******************************************************************/
+include( "psxlsgen.php" );
+include( "db_sxlsgen.php" );
+// test 3:
+// please change the values as your needs
+$cur_con = mysql_connect( "localhost:3306", "mysql", "" );
+$myxls = new Db_SXlsGen;
+$myxls->db_type = "mysql";
+$myxls->db_con_id = $cur_con;
+$myxls->filename = "test3";
+$myxls->crow = 4;          // start at row 4
+$myxls->get_type = 1;      // save as file
+$myxls->db_close = 0;      // no close
+$myxls->col_aliases = array( "host" => "Hostname", "user" => "Login name", "delete_priv" => "Delete Privilege" );
+$myxls->GetXlsFromQuery( "SELECT host,user,delete_priv FROM user ORDER BY host,user" );
+?>
+<HTML>
+ <HEAD>
+  <TITLE>PHP Simple Excel File Generator v<?=$myxls->db_class_ver;?> - MySQL Test Page </TITLE>
+ </HEAD
+ <BODY>
+ <CENTER>
+ <H1>PHP Simple Excel File Generator</H1>
+ <H3>version <?=$myxls->db_class_ver;?></H3>
+ <H3>Test 3: Generate xls from a sql query using Mysql Db</H3>
+ </CENTER>
+ <b><?=$myxls->fname;?></b> has been generated.<br><br>
+</BODY>
+</HTML>

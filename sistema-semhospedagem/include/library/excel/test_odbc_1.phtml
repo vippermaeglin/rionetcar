@@ -1,0 +1,21 @@
+<?php
+/****************************************************************
+* Script         : ODBC test example
+* Project        : PHP SimpleXlsGen
+* Author         : Erol Ozcan <eozcan@superonline.com>
+* Version        : 0.1
+* Copyright      : GNU LGPL
+* URL            : http://psxlsgen.sourceforge.net
+* Last modified  : 13 Jun 2001
+******************************************************************/
+include( "psxlsgen.php" );
+include( "db_sxlsgen.php" );
+
+// test 1: very simple usage with defaults
+$myxls = new Db_SXlsGen;
+$myxls->db_type = "odbc";
+$myxls->db_host = "test-dsn";  // DSN name
+$myxls->db_user = "mysql";
+$myxls->db_passwd = "";
+$myxls->filename = "test_odbc_1";
+$myxls->GetXlsFromQuery( "SELECT * FROM user ORDER BY host,user" );

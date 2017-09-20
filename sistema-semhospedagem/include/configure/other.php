@@ -1,0 +1,26 @@
+<?php
+$value = array (
+  'colormenusuperior' => '#40424C',
+  'colormenusuperiorhover' => '#094281',
+  'colormenusuperiorborder' => '#224774',
+  'colorfundocidades' => '#f58634',
+   'cor_letra_topo' => '#303030',
+  'background_titulos' => '#40424C',
+  'color_fundo_meio_rodape' => '#333',
+  'topodetalhe' => 'url(/skin/padrao/background/body-bg11.png)',
+  'rodape_cor_fundo' => '#666',
+  'cor_bloco_artigo' => '#40424C',
+  'cor_bloco_form' => '#40424C',
+  'bloco_artigo_texto' => '#40424C',
+  'app_id_login' => '',
+  'admin_id_login' => '',
+  'admin_id' => '',
+  'app_id' => '',
+  'twitter' => 'VipcomColetivas',
+  'facebook' => 'http://www.facebook.com/profile.php?id=100002078605414',
+  'box-facebook' => 'http://www.facebook.com/VipcomColetiva',
+  'usuario_twitter' => 'VipcomColetivas',
+  'id_twitter' => '345206136133263363',
+  'orkut' => 'http://www.orkut.com.br/Main#Profile?uid=215875342187694011',
+);
+?>

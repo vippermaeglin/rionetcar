@@ -1,0 +1,17 @@
+<?php
+/****************************************************************
+* Script         : MySQL test examples for PhpSimpleXlsGen
+* Project        : PHP SimpleXlsGen
+* Author         : Erol Ozcan <eozcan@superonline.com>
+* Version        : 0.2
+* Copyright      : GNU LGPL
+* URL            : http://psxlsgen.sourceforge.net
+* Last modified  : 18 May 2001
+******************************************************************/
+include( "psxlsgen.php" );
+include( "db_sxlsgen.php" );
+
+// test 1: very simple usage with defaults
+$myxls = new Db_SXlsGen;
+$myxls->filename = "test1";
+$myxls->GetXlsFromQuery( "SELECT * FROM user ORDER BY host,user" );
