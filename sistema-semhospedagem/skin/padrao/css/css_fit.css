@@ -1,0 +1,89 @@
+
+.three_up_op {
+    border: 0 solid #D9D9D9;
+    float: left;
+    height: 267px;
+    margin: 9px 8px 0 -16px;
+    width: 233px;
+}
+
+.deal .image .inner {
+    border: 1px solid #D9D9D9;
+    overflow: hidden;
+    text-align: center;
+}
+ 
+
+.three_up_op .image .inner {
+    height: 128px;
+    width: 213px;
+}
+
+.deal .image {
+    margin-bottom: 3px;
+	 border-radius: 2px 2px 2px 2px;
+}
+
+.three_up_op .deal .info .title {
+    color: #999999;
+    font-size: 12px;
+    height: 50px;
+    overflow: hidden;
+	clear:both;
+}
+
+.deal .info .subtitle {
+    color: #303030;
+    font-size: 17px;
+    height: 34px;
+    line-height: 1.92em;
+    margin-bottom: 4px;
+}
+
+.deal .info .view-deal-button {
+    padding-right: 10px;
+    z-index: 10;
+}
+.btn-odetailferta {
+	background: #232323;
+	background: -moz-linear-gradient(center top , #484848 0%, #232323 100%) !important; 
+	background: -webkit-gradient(linear, left top, left bottom, from( #484848), to( #232323)) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#484848', endColorstr='#232323') !important;
+	background: -o-linear-gradient(top, #484848 0%,#232323 100%) !important;
+	background: -ms-linear-gradient(top, #484848 0%,#232323 100%) !important;
+	background: linear-gradient(center top,#484848 0%, #232323  100%) !important;
+	
+    border: 1px solid #888B8E;
+    border-radius: 5px 5px 5px 5px; 
+    color: #FFFFFF;
+    font-size: 12px; 
+    padding: 4px 22px;
+	height:36px !important; 
+	text-decoration:none;
+}
+.btn-odetailferta:hover {
+	background: linear-gradient(#232323, #484848) repeat scroll 0 0 #484848;
+    border: 1px solid #888B8E;
+    border-radius: 5px 5px 5px 5px; 
+    color: #FF9200;
+    font-size: 12px; 
+    padding: 4px 22px;
+	height:36px !important; 
+	text-decoration:none;
+	 
+
+}
+
+.bannerofertas{
+	clear: both; padding-top: 0px; overflow: hidden; width: 963px; margin-bottom: 13px;   margin-left: 3px; margin-top: 0px;
+}
+
+.toptopo{background:none;height:0;}
+
+.detalhe_principal{
+	margin-top:-1px;
+}
+.topo .oferta .city{
+	margin-top:0px; 
+}
+ 

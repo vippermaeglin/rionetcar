@@ -1,0 +1,241 @@
+/* Getting the new tags to behave */ 
+  
+html, body { height:100%; }	
+
+.banner-buttons {
+    padding-left: 15px;
+    text-align: right;
+}
+.btn {
+    display: inline-block;
+    position: relative;
+    margin: 5px 0;
+    padding: 10px 31px 11px;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    border-radius: 22px;
+    background: transparent;
+    transition: background .2s,color .2s;
+    text-align: center;
+    text-decoration: none;
+    font: 1.286em/1.1667 'FS Albert Pro Web Bold',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn--sm {
+    padding: 7px 18px 6px;
+    border-radius: 16px;
+    font-size: 1em;
+    line-height: 1.3572;
+}
+.btn, .btn:hover {
+    color: #fff;
+}
+
+.btn--blue {
+    background: #2b65f8;
+}
+.banner-buttons .btn {
+    position: static;
+}
+.miniper{
+	float:left;
+	margin-right:9px;
+}
+.nomeper{
+	font-size:14px;
+	font-weight: bolder;
+	color:#fff;
+	float:left;
+}
+.iconedituser-mini{
+ width:19px;
+ }
+ .iconedituser{
+ width:23px;
+ }
+.cedituser{
+	float:right;
+ }
+.bkinfouser{
+	height:43px;
+ }
+.infouserbasico{ 
+	font-size:12px;
+	color: yellow;
+	margin-top: 6px;
+	font-weight: normal;
+ }
+.infouser_plano{ 
+	font-size:15px;
+	color: #fff; 
+	font-weight: normal;
+ }
+
+.titstep{
+	border-bottom: 1px solid #eee;
+    margin-bottom: 19px;
+	float: left;
+}
+
+.sysmsgw{clear:both;padding:8px 0 10px 37px;color:#000;font-size:14px;}
+.sysmsg{position:relative;width:930px;margin:auto;padding-left:30px;}
+.sysmsg .close{position:absolute;top:0;right:20px;padding-right:16px;background:url(../images/bg-sysmsg-close.gif) 100% 50% no-repeat;font-size:12px;cursor:pointer;}
+#sysmsg-error{border:1px solid #d01e5e;background:#ffdcd7;color:#d01e5e;}
+#sysmsg-success{ background:#FC8227;color:#fff;}
+#sysmsg-error .sysmsg{background:url(../images/bg-sysmsg-error.gif) no-repeat 0 0;}
+
+.fontboxok{color:#303030;size:12px;  height: 50px;width:250px}
+.fontboxerro{color:#E23337;size:12px;  height: 50px;width:250px}
+
+.weditperfil{
+	float: right; width: 94px !important;
+}
+
+.status_perfil {
+	position: absolute;
+	top: 25px;
+	margin-left: 0px;
+}
+
+.profile-title-desc h4 {
+	margin-left: 5%;
+}
+.linksair{
+	margin: -63px 0px 0px; float: right;font-size:12px; color:#fff;
+}
+
+.actions_user {
+	display: inline;
+	list-style-type: none;
+}
+
+.actions_user li {
+	float: left;
+	width: 37px;
+	margin-top: 18px;
+}
+
+.linkVisited {
+	opacity: 0.3;
+}
+
+.txtMsg.status {
+	position: relative;
+	width: 100%;
+}
+
+.actionsMsg {
+	width: 100%;
+	position: relative;
+	margin-left: 9.5%;
+}
+
+.comment-respond textarea {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    color: #999;
+    padding: 10px;
+    resize: vertical;
+    width: 100%;
+}
+
+.comment-respond textarea:active, 
+.comment-respond textarea:focus {
+	border: 1px solid #74b9f0 !important;
+	box-shadow: 0 0 5px #74b9f0;
+}
+
+.text {
+	height: 25px;
+}
+.useroffnome{
+	color:#d43437;
+	font-size:13px;	
+	font-weight: bold;
+	
+}
+.user_no_chat{
+	color:#d43437;
+	font-size:12px;	
+	font-weight: bold;
+	
+}
+.useronnome{
+	color:#090;
+	font-size:13px;	
+	font-weight: bold;
+}
+.userlast{
+	color:#303030;
+	font-size:11px;	
+}
+
+.vpmark {
+	float: right;
+    display: inline-block;
+    position: relative;
+    min-width: 22px;
+    padding: 5px 6px 4px;
+    border-radius: 11px;
+    text-align: center;
+    font: 700 .7857em/1.2 Helvetica,Arial,sans-serif;
+}
+
+
+.vpmark--red {
+    background-color: #e9192e;
+    color: #fff;
+}
+ 
+ 
+.action_loading {
+	float: left;
+	left: 5%;
+	position: relative;
+	top: 23px;
+	display: none;
+}
+
+.banner_footer {
+	left: 425px;
+	position: relative;
+	text-align: center;
+	width: 70%;
+	margin-top: 35px;
+}
+
+li.active_list {
+	background: rgba(0, 0, 0, 0) url("../images/img_yes.png") no-repeat scroll 5% 35%;
+	position: relative;
+}
+
+li.disabled_list {
+	background: rgba(0, 0, 0, 0) url("../images/img_no.png") no-repeat scroll 5% 35%;
+}
+
+
+.imgstatus{
+    margin-top: -7px;
+}
+.abrir_busca{
+   background: url("../images/filter.png") no-repeat scroll 0 0;
+    font-size: 13px;
+   /* font-weight: bold;*/
+    height: 20px;
+    padding-left: 36px;
+    position: absolute;
+    right: 30px;
+	margin-top:7px;
+	z-index: 99999999;
+}
+
+.font_message{
+	font-size: 16px;
+    font-weight: bold;
+}

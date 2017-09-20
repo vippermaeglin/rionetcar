@@ -1,0 +1,179 @@
+/**
+ *********************************************
+ * Prototype of styles for horizontal CSS-menu
+ * @data 30.06.2009
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <div><ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <div><ul><li><a href="#"><span>level 3</span></a></li></ul></div>
+ *                  </li>
+ *              </ul></div>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+
+/* menu::base */
+div#menu {
+   /* height:55px;
+    background:url(../images/nav-bg.png) repeat-x;
+	*/ 
+}
+
+div#menu ul {
+ 
+}
+div#menu ul.menu {
+   	height: 40px;
+	width: 983px;
+
+	background: #4c4e5a;
+	background: -webkit-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+	background: -moz-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+	background: -o-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+	background: -ms-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+	background: linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+div#menu li {
+    position: relative;
+    z-index: 9;
+ 
+    padding: 0;
+    display: block;
+    float: left;
+}
+   
+div#menu li:hover>ul {
+    left: -2px;
+}
+
+div#menu li div {
+    list-style: none;
+    float: left;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 208px;
+    z-index: 11;
+    visibility: hidden;
+    padding: 7px 0 0;
+    _padding: 7px 0 0;
+    margin: 6px 0 0 9px
+}
+div#menu li:hover>div {
+    visibility: visible;
+}
+
+div#menu li.current a {}
+
+/* menu::level1 */
+div#menu a {
+  
+}
+.menu li:first-child a { border-left: none; }
+.menu li:last-child a{ border-right: none; }
+
+
+div#menu span { 
+    padding-top: 18px; 
+    font-weight:bold; 
+    display: block;
+    cursor: pointer;
+    background-repeat: no-repeat;		
+}
+div#menu ul a:hover span {
+    
+}
+
+div#menu li {   }
+div#menu li.last span{
+     
+}
+
+/* menu::level2 */
+div#menu ul ul li {
+    background: url(../images/bg_categoria.png) no-repeat;
+    padding: 4px 0;
+    z-index: 9;	
+	width:191px; 
+}
+div#menu ul ul {
+    z-index: 12;	
+    padding: 0;
+    /*background: #BEE331;*/
+    margin-top:0px;
+    margin-left:4px;
+    margin-right:5px;
+}
+div#menu ul ul a {
+  	width: 190px;
+	padding: 0 2px 0 20px; 
+    float: none;
+    display: block;
+    background:none;  
+	height:32px;
+}
+div#menu ul ul a span {
+	padding: 0;
+    line-height: 27px;
+    color: #303030;
+    font-weight:normal;
+    text-transform: none;
+    background:none;
+	font-size: 13px;
+	font-family:Verdana;
+}
+div#menu ul ul a:hover {
+    /*background: url(../images/submenu-selected-bottom.gif) no-repeat 8px bottom;*/
+}
+div#menu ul ul a:hover span { 
+    color: #E63300; 
+}
+
+div#menu ul ul li.last { background: none; }
+div#menu ul ul li { 
+}
+
+/* menu::level3 */
+div#menu ul ul div {
+    width: 208px;
+    margin: -50px 0 0 190px !important;
+    height: auto;
+    _padding: 0 0 9px 3px;
+}
+div#menu ul ul ul {
+	_padding-right:1px;
+}
+
+/* lava lamp */
+div#menu li.back {
+}
+div#menu li.back .left {
+}
+.filho{
+	
+}
+.pai{
+	
+}
+.prim{
+	  
+}
+
+.menu-fixo{
+	position: fixed;
+	top: 0;
+	z-index: 99999999;
+	width: 100%;
+}

@@ -1,0 +1,75 @@
+21/10/2016 15:34:17 - get_saldo()
+21/10/2016 15:34:17 - ID anunciante: 27
+21/10/2016 15:34:17 - select * from partner_planos where status in ('aprovado','gratis') and partner_id = 27   order by id desc limit 1
+21/10/2016 15:34:17 - partner_plano_id -  50
+21/10/2016 15:34:17 - quandidade_plano_adquirido -  1
+21/10/2016 15:34:17 - select sum(contador) as total from team where partner_plano_id = 50
+21/10/2016 15:34:17 - qtde_ativos -  0
+21/10/2016 15:34:17 - saldo -  1
+21/10/2016 15:34:17 - get_info_plano()
+21/10/2016 15:34:17 - ID anunciante: 27
+21/10/2016 15:37:48 - get_saldo()
+21/10/2016 15:37:48 - ID anunciante: 27
+21/10/2016 15:37:48 - select * from partner_planos where status in ('aprovado','gratis') and partner_id = 27   order by id desc limit 1
+21/10/2016 15:37:48 - partner_plano_id -  50
+21/10/2016 15:37:48 - quandidade_plano_adquirido -  1
+21/10/2016 15:37:48 - select sum(contador) as total from team where partner_plano_id = 50
+21/10/2016 15:37:48 - qtde_ativos -  0
+21/10/2016 15:37:48 - saldo -  1
+21/10/2016 15:37:48 - get_info_plano()
+21/10/2016 15:37:48 - ID anunciante: 27
+21/10/2016 15:37:52 - get_saldo()
+21/10/2016 15:37:52 - ID anunciante: 27
+21/10/2016 15:37:52 - select * from partner_planos where status in ('aprovado','gratis') and partner_id = 27   order by id desc limit 1
+21/10/2016 15:37:52 - partner_plano_id -  50
+21/10/2016 15:37:52 - quandidade_plano_adquirido -  1
+21/10/2016 15:37:52 - select sum(contador) as total from team where partner_plano_id = 50
+21/10/2016 15:37:52 - qtde_ativos -  0
+21/10/2016 15:37:52 - saldo -  1
+21/10/2016 15:37:52 - get_partner_plano_id()
+21/10/2016 15:37:52 - ID anunciante: 27
+21/10/2016 15:37:52 - select * from partner_planos where status in ('aprovado','gratis') and partner_id = 27 order by id desc limit 1
+21/10/2016 15:37:52 - partner_plano_id :50
+21/10/2016 15:37:52 - get_saldo()
+21/10/2016 15:37:52 - ID anunciante: 27
+21/10/2016 15:37:52 - select * from partner_planos where status in ('aprovado','gratis') and partner_id = 27   order by id desc limit 1
+21/10/2016 15:37:52 - partner_plano_id -  50
+21/10/2016 15:37:52 - quandidade_plano_adquirido -  1
+21/10/2016 15:37:52 - select sum(contador) as total from team where partner_plano_id = 50
+21/10/2016 15:37:52 - qtde_ativos -  0
+21/10/2016 15:37:52 - saldo -  1
+21/10/2016 15:37:52 - get_info_plano()
+21/10/2016 15:37:52 - ID anunciante: 27
+21/10/2016 15:37:52 - temvideo() 50 
+21/10/2016 15:37:52 - partner_plano_id aprovado (50) - PLANO_ID 10
+21/10/2016 15:37:52 - upgrade NAO existe  select  * from planos_upgrade_partner_plano where usou = '' and  idupgrade = 'VIDEO' and idpartnerplanos = 50 
+21/10/2016 15:39:51 - get_saldo()
+21/10/2016 15:39:51 - ID anunciante: 27
+21/10/2016 15:39:51 - select * from partner_planos where status in ('aprovado','gratis') and partner_id = 27   order by id desc limit 1
+21/10/2016 15:39:51 - partner_plano_id -  50
+21/10/2016 15:39:51 - quandidade_plano_adquirido -  1
+21/10/2016 15:39:51 - select sum(contador) as total from team where partner_plano_id = 50
+21/10/2016 15:39:51 - qtde_ativos -  0
+21/10/2016 15:39:51 - saldo -  1
+21/10/2016 15:39:51 - get_info_plano()
+21/10/2016 15:39:51 - ID anunciante: 27
+21/10/2016 15:42:55 - get_saldo()
+21/10/2016 15:42:55 - ID anunciante: 27
+21/10/2016 15:42:55 - select * from partner_planos where status in ('aprovado','gratis') and partner_id = 27   order by id desc limit 1
+21/10/2016 15:42:55 - partner_plano_id -  50
+21/10/2016 15:42:55 - quandidade_plano_adquirido -  1
+21/10/2016 15:42:55 - select sum(contador) as total from team where partner_plano_id = 50
+21/10/2016 15:42:55 - qtde_ativos -  0
+21/10/2016 15:42:55 - saldo -  1
+21/10/2016 15:42:55 - get_info_plano()
+21/10/2016 15:42:55 - ID anunciante: 27
+21/10/2016 15:56:41 - get_saldo()
+21/10/2016 15:56:41 - ID anunciante: 27
+21/10/2016 15:56:41 - select * from partner_planos where status in ('aprovado','gratis') and partner_id = 27   order by id desc limit 1
+21/10/2016 15:56:41 - partner_plano_id -  50
+21/10/2016 15:56:41 - quandidade_plano_adquirido -  1
+21/10/2016 15:56:41 - select sum(contador) as total from team where partner_plano_id = 50
+21/10/2016 15:56:41 - qtde_ativos -  0
+21/10/2016 15:56:41 - saldo -  1
+21/10/2016 15:56:41 - get_info_plano()
+21/10/2016 15:56:41 - ID anunciante: 27

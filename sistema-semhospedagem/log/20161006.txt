@@ -1,0 +1,8 @@
+06/10/2016 14:43:08 - get_saldo()
+06/10/2016 14:43:08 - ID anunciante: 44
+06/10/2016 14:43:08 - select * from partner_planos where status in ('aprovado','gratis') and partner_id = 44   order by id desc limit 1
+06/10/2016 14:43:08 - partner_plano_id -  
+06/10/2016 14:43:08 - quandidade_plano_adquirido -  0
+06/10/2016 14:43:08 - Nao existem plano aprovado deste anunciante id 44 
+06/10/2016 14:43:08 - get_info_plano()
+06/10/2016 14:43:08 - ID anunciante: 44

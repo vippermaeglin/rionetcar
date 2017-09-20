@@ -1,0 +1,8 @@
+22/09/2016 16:04:50 - gettotal_pago_upgrade() 80 
+22/09/2016 16:04:50 - total_pago_upgrades -   
+22/09/2016 16:04:50 - gettotal_pago_upgrade() 78 
+22/09/2016 16:04:50 - total_pago_upgrades -   
+22/09/2016 16:05:04 - gettotal_pago_upgrade() 80 
+22/09/2016 16:05:04 - total_pago_upgrades -   
+22/09/2016 16:05:04 - gettotal_pago_upgrade() 78 
+22/09/2016 16:05:04 - total_pago_upgrades -   

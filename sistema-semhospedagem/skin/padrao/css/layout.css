@@ -1,0 +1,220 @@
+ 
+.col-1, .col-2, .col-3, .col-4, .col-6{ float:left}
+/*======= width =======*/
+.main {	margin: 0 auto;	position: relative;	width:986px;  }
+
+
+/*======= header =======*/ 
+ 
+header {height:128px;  width:100%; overflow:hidden }
+.toptopo{background:url(../images/top.png) bottom center no-repeat;height:39px;width:100%;}
+
+
+/*======= index.html =======*/
+/* #page1 section .col-1b{ width:100%; margin-right:14px}*/
+#page1 section .col-1{ width:721px; }
+#page1 section .col-2{ /*width:284px*/}
+/*#page1 section .col-3{ width:280px; margin-right:33px}*/
+#page1 section .col-5{ /*width:100%;*/ margin-right:2px}
+#page1 section .col-6{ width:648px; margin-right:0px;margin-left:20px;padding:0 34px 0 0;}
+/* page1 section .col-6{ width:27%; margin-right:6px} */
+#page1 section .col-4{ width:289px;margin-top:14px;margin-left:-7px;}
+#page1 section .col-4b{ width:100%;}
+#page1 aside .col-1{ width:586px; margin-right:81px}
+#page1 aside .col-6{ width:586px; margin-right:81px}
+#page1 aside .col-2{ width:252px; margin-right:0}
+#page1 .bg{ background:url(../images/tail.gif) repeat-y 629px top } 
+/*======= index-1.html =======*/
+#page2 section .col-1{ width:590px; margin-right:34px}
+#page2 section .col-2{ width:313px}
+/*======= index-2.html =======*/
+#page3 section .col-1{ width:313px; margin-right:14px}
+#page3 section .col-2{ width:590px}
+/*======= index-3.html =======*/
+#page4 section .col-1{ width:265px; margin-right:48px}
+#page4 section .col-2{ width:265px}
+#page4 section .col-3{ width:420px; margin-right:50px}
+#page4 section .col-6{ width:100%; margin-right:50px}
+#page4 section .col-5{ width:420px; margin-right:50px}
+#page4 section .col-4{ width:415px;}
+/*======= index-4.html =======*/
+#page5 section .col-1{ width:313px; margin-right:14px}
+#page5 section .col-2{ width:590px}
+/*======= index-5.html =======*/
+#page6 section .col-1{ width:590px; margin-right:34px}
+#page6 section .col-2{ width:313px}
+#page6 section .col-3{ width:195px; margin-right:75px}
+#page6 section .col-5{ width:195px; margin-right:75px}
+#page6 section .col-4{ width:195px;}
+
+#page1 section .col-1b{ width:100%; }
+.ofertasrecentes{
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+
+background-color:WhiteSmoke;
+float:left;
+height:270px;
+margin:29px 10px 10px 29px;
+padding:10px;
+width:248px;
+}
+
+.pgavulsafundobranco{
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+background-color:white;
+float:left;
+height:270px;
+margin:29px 10px 10px 29px;
+padding:10px;
+width:90%;
+}
+
+.pgavulsafundoaut{
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+background-color:#F8F7EF;
+float:left;
+height:134px;
+/* margin:29px 10px 10px 29px;*/
+padding:10px;
+width:100%;
+}
+
+
+.pgavulsaconvida{
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+background-color:#032838;
+float:right;
+color:#FFFFFF; 
+/* margin:29px 10px 10px 29px;*/
+padding:10px;
+width:321px;
+margin-left:0px;
+}
+
+
+.pgavulsafundoauttoupup{
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+background-color:#F8F7EF;
+float:left;
+height:600px;
+/* margin:29px 10px 10px 29px;*/
+padding:10px;
+width:91%;
+margin-left:14px;
+}
+
+.pglogin{
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+background-color:#F8F7EF;
+float:left;
+height:129px;
+/* margin:29px 10px 10px 29px;*/
+padding:10px;
+width:92%;
+margin-left:14px;
+}
+
+.pgavulsafundominhacontapagar{
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+padding:10px;
+width:95%;
+margin-left:14px;
+}
+
+
+
+.pgavulsafundocad{
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+background-color:#F8F7EF;
+float:left;
+height:355px;
+/* margin:6px 10px 10px 29px; */
+padding:1px 0 0 17px;
+width:100%;
+margin-top:2px;
+}
+.pgavulsafundonoofers{
+ 
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius:18px 44px 18px 18px;
+-moz-border-radius: 18px 44px 18px 18px;
+background-color: #B0D50F;
+float: left;
+height: 254px;
+margin-top: -45px;
+padding: 53px 0 0 28px;
+width: 100%
+}
+
+.pgavulsafundonoofersrecentes{
+ 
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius:18px 44px 18px 18px;
+-moz-border-radius: 18px 44px 18px 18px;
+background-color: #B0D50F;
+float: left;
+height: 304px;
+margin-top: -49px;
+padding: 99px 0 0 28px;
+width: 100%
+}
+
+.pgavulsafundominhaconta{
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+float:left; 
+/* margin:6px 10px 10px 29px; */
+ 
+width:100%;
+margin-top:2px;
+}
+
+.pgavulsafundominhacontahead{
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+ background:url(../images/bg1.jpg) top repeat-x
+/* margin:6px 10px 10px 29px; */
+padding:58px 0 0 17px;
+width:100%;
+margin-top:2px;
+}
+
+.pgavulsafundocart{
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+background-color:#F8F7EF;
+float:left;
+height:150px;
+padding:17px 0 0 43px;
+width:100%;
+}
+
+.pic .isopen2 {
+top:-13px;
+}
+
+#page1 section .col-1b {
+ margin-top:0px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+}

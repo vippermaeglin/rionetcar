@@ -1,0 +1,7 @@
+[03-Jun-2012 11:56:51] PHP Fatal error:  Call to undefined function  simplexml_load_url() in /home/sistemac/public_html/vipclass/util/apipagseguro/testepag.php on line 3
+[03-Jun-2012 11:57:25] PHP Warning:  simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home/sistemac/public_html/vipclass/util/apipagseguro/testepag.php on line 3
+[03-Jun-2012 11:57:25] PHP Warning:  simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/77B708-0C74CD74CDA in /home/sistemac/public_html/vipclass/util/apipagseguro/testepag.php on line 3
+[03-Jun-2012 11:57:25] PHP Warning:  simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: ^ in /home/sistemac/public_html/vipclass/util/apipagseguro/testepag.php on line 3
+[03-Jun-2012 12:28:47] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home/sistemac/public_html/vipclass/util/apipagseguro/testepag.php on line 7
+[03-Jun-2012 12:29:39] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home/sistemac/public_html/vipclass/util/apipagseguro/testepag.php on line 7
+[03-Jun-2012 14:00:58] PHP Fatal error:  Call to undefined function  simplexmld_load_file() in /home/sistemac/public_html/vipclass/util/apipagseguro/testepag.php on line 6

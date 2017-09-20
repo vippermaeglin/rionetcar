@@ -1,0 +1,36 @@
+.tail-top{ background:url(../images/bg1.png) top repeat-x }
+.col-1, .col-2, .col-3, .col-4{ float:left}
+/*======= width =======*/
+.main {	margin: 0 auto;	position: relative;	width:986px;color:#fff; }
+
+
+/*======= header =======*/
+header {height:186px;  background:url(../images/top.gif) bottom center no-repeat; width:100%; overflow:auto}
+
+/*======= index.html =======*/
+#page1 section .col-1{ width:610px; margin-right:14px}
+#page1 section .col-2{ width:313px}
+#page1 section .col-3{ width:280px; margin-right:33px}
+#page1 section .col-4{ width:275px}
+#page1 aside .col-1{ width:586px; margin-right:81px}
+#page1 aside .col-2{ width:252px; margin-right:0}
+#page1 .bg{ background:url(../images/tail.gif) repeat-y 629px top } 
+/*======= index-1.html =======*/
+#page2 section .col-1{ width:590px; margin-right:34px}
+#page2 section .col-2{ width:313px}
+/*======= index-2.html =======*/
+#page3 section .col-1{ width:313px; margin-right:14px}
+#page3 section .col-2{ width:590px}
+/*======= index-3.html =======*/
+#page4 section .col-1{ width:265px; margin-right:48px}
+#page4 section .col-2{ width:265px}
+#page4 section .col-3{ width:420px; margin-right:50px}
+#page4 section .col-4{ width:415px}
+/*======= index-4.html =======*/
+#page5 section .col-1{ width:313px; margin-right:14px}
+#page5 section .col-2{ width:590px}
+/*======= index-5.html =======*/
+#page6 section .col-1{ width:590px; margin-right:34px}
+#page6 section .col-2{ width:313px}
+#page6 section .col-3{ width:195px; margin-right:75px}
+#page6 section .col-4{ width:195px}
