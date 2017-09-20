@@ -1,0 +1,68 @@
+.cjt-wrapped-select-skin {
+    background-image: -moz-linear-gradient(#edf2f2, white);
+    background-image: -webkit-linear-gradient(#edf2f2, white);
+    background-image: -o-linear-gradient(#edf2f2, white);
+    background-image: -ms-linear-gradient(#edf2f2, white);
+    -cp-background-image: linear-gradient(#edf2f2, white);
+    behavior: url(/cPanel_magic_revision_1333594446/cjt/ie9gradients.htc);
+    background-image: linear-gradient(#edf2f2, white);
+    padding: 2px 15px 2px 5px;
+    border: 1px solid #88999f;
+}
+
+.cjt-wrapped-select > select {
+    top: 1px;
+}
+
+select:focus + .cjt-wrapped-select-skin {
+    outline: 1px dotted #666666;
+}
+select[disabled] + .cjt-wrapped-select-skin {
+    background-color: #eeeeee;
+    background-image: none;
+    color: graytext;
+}
+
+.cjt-wrapped-select-icon {
+    position: absolute;
+    top: 0;
+    background: url(i/droparrow.png) no-repeat right center;
+    height: 100%;
+    width: 100%;
+}
+select[disabled] + * + .cjt-wrapped-select-icon {
+    background-image: url(i/droparrow-disabled.png);
+}
+
+
+/*
+----------------------------------------------------------------------
+Core CSS - Change with caution!
+
+NOTE: These rules make the skin element have the same width as the
+wrapped <select>, but an auto-height.
+----------------------------------------------------------------------
+*/
+.cjt-wrapped-select {
+    display: inline-block;
+    position: relative;
+    cursor: default;
+	width:88%;
+}
+.cjt-wrapped-select > select {
+    border: 0;  /* Not really core, but a good idea for MacOS */
+    opacity: 0;  /* This is all for IE9+, so no filter needed */
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.cjt-wrapped-select > .cjt-wrapped-select-skin {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 100%;
+}

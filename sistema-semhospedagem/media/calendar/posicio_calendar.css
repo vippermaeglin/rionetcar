@@ -1,0 +1,69 @@
+.div_calendar h1,h2,h3,h4,h5,h6,p
+{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+#facebox .b {background:url(http://a0.ak.lscdn.net/deals/images/bingy/facebox/b.png)}
+#facebox .tl {background:url(http://a0.ak.lscdn.net/deals/images/bingy/facebox/tl.png)}
+#facebox .tr {background:url(http://a2.ak.lscdn.net/deals/images/bingy/facebox/tr.png)}
+#facebox .bl {background:url(http://a2.ak.lscdn.net/deals/images/bingy/facebox/bl.png)}
+#facebox .br {background:url(http://a1.ak.lscdn.net/deals/images/bingy/facebox/br.png)}
+#facebox {position: absolute; top: 0; left: 0; z-index: 102; text-align: left}
+#facebox .popup {position: relative}
+#facebox table {border-collapse: collapse}
+#facebox td {border-bottom: 0; padding: 0}
+#facebox .body {padding: 0px; background: #fff; width: 370px}
+#facebox .loading {text-align: center}
+#facebox .image {text-align: center}
+#facebox img {border: 0; margin: 0}
+#facebox .footer {border-top: 1px solid #DDDDDD; padding-top: 5px; margin-top: 10px; text-align: right}
+#facebox .tl, #facebox .tr, #facebox .bl, #facebox .br {height: 10px; width: 10px; overflow: hidden; padding: 0}
+#facebox_overlay {position: fixed; top: 0px; left: 0px; height:100%; width:100%}
+.facebox_hide {z-index:-100}
+.facebox_overlayBG {background-color: #000; z-index: 99}
+* html #facebox_overlay {position: absolute; height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px')}
+#facebox .body {-webkit-border-radius: 4px; -moz-border-radius: 4px;}
+#facebox .close-fb-modal {display: block; position: absolute; top: -10px; right: -10px; text-indent: -9999px; width: 30px; height: 30px; background-image: url('http://a1.ak.lscdn.net/deals/images/refresh/modal/modal.png'); background-position: -40px 0px; cursor: pointer; z-index: 1103}
+#new-badge #facebook-icon {background: transparent url(http://a1.ak.lscdn.net/deals/images/refresh/facebook.gif); left: 7px; top: 7px; height: 14px; width: 14px}
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {border: none}
+.press-me {background: transparent url(http://a0.ak.lscdn.net/deals/images/bingy/buttons.png?2) no-repeat scroll top right; border:0px none; color: #fff !important; cursor:pointer; font-size:14px; font-weight:normal; height:33px; overflow:visible; padding:0 15px 0 0px; text-shadow:1px -1px 0px rgba(0,0,0,0.5); white-space:nowrap; opacity: 0.9; position: relative; display: block}
+button.press-me span {line-height: 31px}
+button.press-me::-moz-focus-inner {padding: 0px}
+.press-me span {background : transparent url(http://a0.ak.lscdn.net/deals/images/bingy/buttons.png?2) no-repeat scroll 0px 0px; line-height : 33px; height : 33px; padding : 0px 25px 0px 20px; display : block; position : relative}
+.press-me:hover {opacity: 1.0}
+.press-me.disabled {cursor:default; background-position: right -33px; height:24px; opacity: 1.0}
+.press-me.disabled span {background-position: 0px -33px; color: #808285 !important; text-shadow: none; height:24px; line-height : 24px}
+button a, .press-me {display: inline; float: left; position: relative}
+button a, .press-me span {padding-right: 5px}
+div.submit {z-index: 3;}
+input[type='image'].disabled {opacity: 0.5}
+.addthis_toolbox .custom_images a {width: 20px; height: 20px; margin: 0 5px 1px 0; padding: 0; opacity: 0.8; text-indent: -3333em; background: transparent url(http://a0.ak.lscdn.net/deals/images/bingy/share-icons-big.png) no-repeat scroll 0px 0px; position: relative; display: block; float: left}
+.addthis_toolbox .custom_images a.addthis_button_twitter {background-position: 0px -20px;}
+.addthis_toolbox .custom_images a.addthis_button_email {background-position: 0px -40px;}
+.addthis_toolbox .custom_images a:hover {opacity: 1}
+a.cancel {display: block; padding: 0; overflow: hidden; background-image: url(http://a2.ak.lscdn.net/deals/images/bingy/cancel-buttons.png); background-repeat: no-repeat; height: 16px; width: 16px; text-indent: -9999px; text-align: left}
+a.cancel:hover {background-position: 0 -17px}
+.ie7 img {-ms-interpolation-mode: bicubic}
+.ir {display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr}
+.hidden {display: none; visibility: hidden}
+.visuallyhidden {border: 0 !important; clip: rect(0 0 0 0); height: 1px !important; margin: -1px !important; overflow: hidden !important; padding: 0 !important; position: absolute !important; width: 1px !important}
+.invisible {visibility: hidden}
+.clearfix:before, .clearfix:after {content: "\0020"; display: block; height: 0; visibility: hidden}
+.clearfix:after {clear: both}
+.clearfix {zoom: 1}
+body {-webkit-font-smoothing: antialiased; text-align: center}
+#background {background: transparent url("http://a1.ak.lscdn.net/deals/images/refresh/background-fade.png") repeat-x scroll left bottom; min-height:950px; -moz-user-select: none; overflow: hidden; position: fixed; left: 0; top: 0; width: 100%; height:auto; z-index:-1}
+.fader, #background .fader {background: transparent url("http://a1.ak.lscdn.net/deals/images/refresh/background-fade.png") repeat-x scroll left bottom; bottom:-100px; left:0; position: absolute; width:100%; z-index:0}
+#background img {left: 0; min-width: 1200px; position: absolute; top: 0; width: 100%; z-index: -2}
+#background .stretch-image {left: 0; min-width: 1200px; position: absolute; top: 0; width: 100%; height: 100%; background-size:100% auto; -moz-background-size:100% auto; -webkit-background-size:100% auto; z-index: -2}
+#background .fader {position:absolute; height: 100%}
+.fader {position:fixed; z-index:-1; height: 420px}
+#page, body.pipeline div.body, body.pipeline div.container {text-align: left;}
+html.ie7 #page, html.ie8 #page {position: relative; left: 20px;}
+.nest {background: transparent; margin: 0 auto; position: relative; text-align: left; width: 960px; z-index: 1000}
+div#masthead, div#presence-header {height: 35px; padding: 0; width: 100%; position: relative; z-index: 100}
+h1#brand {margin: 0 0 5px 0; height: 105px; width: 220px; background: #262626; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px}
+h1#brand a.livingsocial-logo {background: url('http://a1.ak.lscdn.net/deals/images/refresh/branding/livingsocial-logo.png') no-repeat 28px 13px; height: 95px; margin: 0; padding: 5px; width: 210px}
+#left-navigation h2 a {position: relative; padding-right: 45px;}
+#left-navigation h2 a:hover, #left-navigation h2 a.active {background-image: -ms-linear-gradient(top, #212121 0%, #303030 100%); background-image: -moz-linear-gradient(top, #212121 0%, #303030 100%); background-image: -o-linear-gradient(top, #212121 0%, #303030 100%); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #212121), color-stop(1, #303030)); background-image: -webkit-linear-gradient(top, #212121 0%, #303030 100%); background-image: linear-gradient(top, #212121 0%, #303030 100%)}
+#left-navigation h2 {margin-bottom: 0}
+#left-navigation h2 a.market, #left-navigation h2 span.market {background-color: #262626; border-bottom: 1px solid #202020; color: #fff; display: block; font-size: 16px; font-weight: normal; padding: 11px 13px 9px; text-transform: lowercase; font-family: "Arial Rounded MT Bold", Helvetica, Arial, sans-serif; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0}
+.oldie #new-badge {width: 940px; background: #f90; clear: both;}

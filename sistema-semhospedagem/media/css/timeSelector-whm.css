@@ -1,0 +1,124 @@
+.cpanel-time-selector-hours-group {
+    background: none;
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+    vertical-align: middle;
+    margin-right: 2px;
+    height: auto;
+}
+.cpanel-button-group {
+    display: inline-block;
+    zoom:1;
+    *display: inline;
+}
+.cpanel-time-selector-container {
+    font-family:Helvetica;
+}
+.cpanel-time-selector-hours,
+.cpanel-time-selector-minutes {
+    width: 18px;
+    height: 15px;
+    float:left;
+    border: 1px solid #dadada;
+}
+.cpanel-time-selector-ampm-button {
+    display:block !important;
+}
+.cpanel-time-selector-arrow-button {
+    width: 12px !important;
+    padding-left: 6px;
+    padding-right: 6px;
+    height:13px;
+    cursor: pointer;
+    display:block;
+}
+
+.cpanel-time-selector-ampm-group {
+    border:1px solid #dadada;
+    display: inline-block;
+    zoom:1;
+    *display: inline;
+    vertical-align: middle;
+}
+.cpanel-time-selector-ampm-group button {
+    background-color: #f8f8f8;
+    font-size:8px;
+    color:#666;
+    font-weight: bold;
+    cursor: pointer;
+    width:30px;
+    margin:0;
+    border:0;
+    padding:0 6px;
+    height:12px;
+    line-height: 12px;
+}
+
+.cpanel-time-selector-ampm-group button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.cpanel-time-selector-ampm-group button.cpanel-time-selector-ampm-selected {
+    background-color: #61909c;
+    color: #ffffff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-shadow: inset 1px 2px 4px #01404F;
+    -webkit-box-shadow: inset 1px 2px 4px #01404F;
+    box-shadow: inset 1px 2px 4px #01404F;
+}
+
+.cpanel-time-selector-hours-up {
+    border-left:none;
+    border-right:1px solid #dadada;
+    border-top:1px solid #dadada;
+    border-bottom:none;
+    cursor: pointer;
+    background: url(i/arrow-up-time.png) no-repeat center #fafafa;
+}
+.cpanel-time-selector-hours-down {
+    border-left:none;
+    border-right:1px solid #dadada;
+    border-top:1px solid #dadada;
+    border-bottom:1px solid #dadada;
+    cursor: pointer;
+    background: url(i/arrow-down-time.png) no-repeat center #fafafa;
+    height:14px;
+}
+
+
+
+
+.cpanel-time-selector-minutes-up {
+    border-left:none;
+    border-right:1px solid #dadada;
+    border-top:1px solid #dadada;
+    border-bottom:none;
+    cursor: pointer;
+    background: url(i/arrow-up-time.png) no-repeat center #fafafa;
+
+}
+.cpanel-time-selector-minutes-down {
+    border-left:none;
+    border-right:1px solid #dadada;
+    border-top:1px solid #dadada;
+    border-bottom:1px solid #dadada;
+    cursor: pointer;
+    background: url(i/arrow-down-time.png) no-repeat center #fafafa;
+    height:14px;
+
+}
+
+
+
+.cpanel-time-selector-minutes-group {
+    width:48px;
+    vertical-align: middle;
+    display: inline-block;
+    zoom:1;
+    *display: inline;
+    margin-left: 2px;
+}
