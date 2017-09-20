@@ -1,0 +1,91 @@
+autocar 2.9.3
+
+17/04/17 - erro precorevenda, campos not null, erro cadastro anuncio
+10/04/17 - correção anúncio sem imagens
+31/03/17 - install ok 
+31/03/17 - implementação filtro estado/cidade revendas mobile
+27/03/17 - correção salvamento informações busca desktop/mobile
+24/03/17 - inclusão filtro estado/cidade revendas
+24/03/17 - salvamento campos busca desktop/mobile
+21/03/17 - correção planos grátis mobile
+17/03/17 - inclusão recuperação de senha mobile
+02/03/17 - correção busca mobile anúncios desativados aparecendo
+30/01/17 - botões de ação anterior e próximo slide mobile
+24/01/17 - remoção campos não utilizados no vipmin
+16/01/17 - listagem especiais adminanunciante
+16/01/17 - redirecionamento cadastro mobile
+03/01/17 - correção erro botão "continuar grátis" mobile.
+29/12/16 - correção página planos mobile correção tipo usuário. Apaga dados formulário proposta após enviar.
+02/12/16 - correção menu mobile, listagem anúncios adminanunciante
+17/11/16 correção remocao primary key vipcom dump tabela ano modelo
+10/11/16 - Correção de erro ao atualizar conteúdo das páginas.
+	ajax/manage.php
+09/11/16 - Atualização vipcomdump com novos dados da tabela FIPE.
+28/10/16 - Correção la listagem de visualizações por anúncios.
+	compiled/manage_report_index.php
+04/10/16 - Correção no cálculos dos rendimentos mensais da home do vipmin
+vipmin/misc/index.php
+27/09/16 -Relatórios clique vipmin
+16/09/16  admin anunciante responsivo
+
+25/08/16 - Alteração para forçar o login do usuário antes de ser direcionado à tela de login.
+	padrao/queranunciar.php
+	padrao/planos.php
+08/08/16 - Correção do redirecionamento de links para mobile
+	index.php
+03/08/16 - Correção do cadastro de modelos
+	compiled/manage_category_editmodelo
+	vipmin/category/editmodelo
+25/07/16 - Correção telefone no detalhe do anúncios
+		bloco(mobile)/detalhe_anuncioM.php
+30/06/16 - Correção texto detalhe artigo.
+		css/css.css
+17/06/16 - Troca da rede social orkut pelo Instagram
+15/06/16 - Correção vipcomdump retirada dos comentários.
+09/06/16 - autoserver
+09/06/16 - Correção erro include arquivo revista
+30/05/16 - Correção encode detalhe produto mobile
+24/05/16 - Correççã bloco de compartilhamento do detalhe do anúncios
+	 bloco/bloco_compartilhar
+20/05/16 - Correção layout bloco lista_revendas.php
+12/05/16 - Correção template proposta sem DDD do usuário
+05/05/16 - Correção tamanho dos thumbs detalhes revista - central-pc
+	bloco/detalhe_categoria.php
+02/05/16 - Fixado em 800x600 o tamanhanho do colorbox das imagens dos anúncios - central-pc
+	bloco/detalhe_produto
+	bloco/anuncio_home_vertical
+	commom.php - upload()
+28/04/16 - correção exibição do texto de atualização mensal da tabela fipe e data da última atulização - central-pc
+	bloco/bloco_tabelafipe
+
+26/04/16 - correção anúncios vitrine sobrepondo ao bloco revista - central-pc
+	classic.css - .mrg-auto-lr
+	ofertas_populares.php
+
+22/04/16 - correção cores que eram resetadas ao savar redes sociais e vice-versa.
+	manage_system_cores
+	manage_system_redessociais
+20/04/16 - correções diversas, acentuação, vipcomdump
+20/04/16 - diretorio mobile public
+
+16/02/16: melhoria de css da home, inclusao  de modificações de outros elementos de cores, remoção de elementos de cores não usados. vipcom-pc 
+
+16/02/16: Correção nome do usuário e-mail proposta - central-pc;
+	templates/envioproposta.php
+15/02/16: Alteração combustível moto álcoo para etanol - central-pc;
+	compiled/camposmoto.php
+14/02/16: vipcom-pc - teste
+
+03/02/16: Correção links do slide de banners topo - central-pc;
+	util/sfwupload/app/upload.php
+	vipmin/system/banners.php
+01/02/16: Correção frase de preço especial para revenda - central-pc;
+	common.php-preco_especial_revenda()
+29/01/16: Correção da exibição da escolha de anúncios vitrine - central-pc;
+	compiled/manage_team_anunciante_edit;
+	common.php - temvitrine_anunciante();
+27/11/15: Retirada do botão de exclusão de propostas da adminanunciante (manage_team_propostas_anunciante) - central-pc;
+18/11/15: Correção da template de propostas - central-pc;
+15/07/15: Correção need_login (include/head.php);
+03/06/15: exibição valor tabela fipe;
+29/06/15: sql exibição de anúncios por revenda (bloco/buscaveículos.php);
