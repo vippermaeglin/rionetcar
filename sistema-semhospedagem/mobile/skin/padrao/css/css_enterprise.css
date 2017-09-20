@@ -1,0 +1,333 @@
+.filterbar-full {
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  font-size: 14px;
+  height: 194px;
+  margin-bottom: 13px;
+  margin-left: 17px;
+  margin-top: 0;
+  width: 765px;
+}
+
+ dl {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+.planoNitroHome { 
+	color: #FFF;
+}
+
+.planoNitroHome, .planoNitro, .planoTurbo, .planoGratis {
+	width: 718px;
+	padding: 5px;
+	display: table;
+	margin-bottom: 5px;
+	height: 90px;
+}
+
+.planoNitroHomeInfo > p {
+    padding-top: 5px;
+}
+
+.planoNitroHome dt, .planoNitro dt, .planoTurbo dt, .planoGratis dt {
+    float: right;
+    height: 90px;
+    width: 115px;
+}
+
+.planoNitroHome dd.titulo-busca {
+	width: 568px;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 2px;
+}
+
+.titulo-busca h4 {
+    color: #000;
+    display: block;
+    height: 25px;
+    line-height: 2.1em;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.planoNitroHome dd span, .planoNitro dd span, .planoTurbo dd span, .planoGratis dd span {
+  float: right;
+}
+ 
+dd.planoNitroHomeDesc, dd.planoNitroDesc, dd.planoTurboDesc, dd.planoGratisDesc {
+  border: medium none;
+  color: #000000;
+  font-size: 13px;
+  font-weight: normal;
+  margin: -117px 0 0 350px;
+  width: 150px;
+}
+
+@-moz-document url-prefix(){
+	dd.planoTurboDesc, dd.planoGratisDesc {
+		margin: -125px 0 0 342px;
+	}
+}
+
+dd.planoNitroHomeInfo {
+  color: #000000;
+  float: right;
+  margin-top: -95px;
+  width: 200px;
+  margin-right: -40px;
+}
+
+.CidadeRevenda {
+  margin-right: 10px;
+  text-align: right;
+}
+
+.LinkEstoque {
+  color: #c5170e;
+  font-size: 13px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+dd.planoNitroHomeDesc p, dd.planoNitroDesc p, dd.planoTurboDesc p, dd.planoGratisDesc p {
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-position: left;
+	padding-left: 8px;
+	padding-top: 1px;
+	}
+
+.list-acessorios {
+	color: #000;
+	display: block;
+	float: left !important;
+	position: relative;
+	width: 565px !important;
+	border: 0 !important;
+}
+
+.list-acessorios span {
+	margin-left: 10px;
+	font-size: 9px;
+	float: left !important;
+	border: 0 !important;
+}
+ 
+.box-content-heading1{ 
+	color:#4c4e5a !important;
+	font-size: 18px !important;
+	font-weight: bold !important;
+}
+.box-content-heading3{
+	font-family:helvetica !important;
+	max-height:60px !important;
+	color:#666 !important;
+	font-size:12px!important;
+	margin:0 0 5px !important;
+	padding-bottom:9px !important;
+	border-bottom:0px !important;
+}
+ 
+.bcpagina{
+	clear:both;font-size: 13px; margin-left: 18px; color:#303030;margin-top: 22px;
+}
+.box-item{
+	height:267px;
+	width:223px !important;
+}
+.box-item-mini {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  float: left;
+  height: 154px;
+  margin-bottom: 10px;
+  margin-right: 7px;
+  padding: 7px;
+  position: relative;
+  transition: all 0.25s linear 0s;
+  width: 131px;
+}
+.box-content-heading1-mini {
+  font-size: 12px;
+  height: 40px;
+  font-weight: 600;
+}
+.destaquenoticias{
+	margin-left:11px;height:269px;
+}
+
+ul.listagem-marcas-horizontal li {
+    border: 1px solid #B4E0F6;
+    border-radius: 3px 3px 3px 3px;
+    float: left;
+    margin-right: 6px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+ul.listagem-marcas-horizontal li a {
+    margin: 0 auto;
+}
+
+ul.listagem-marcas-horizontal .sprite-marcas {
+    margin-bottom: 0 !important;
+}
+
+.sprite-marcas {
+    background-image: url("../images/sprite-marcas.png");
+    height: 30px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-indent: 9000px;
+    width: 40px;
+}
+.sprite-chevrolet {
+    background-position: 0 0;
+}
+.sprite-citroen {
+    background-position: 0 -30px;
+}
+
+.sprite-fiat {
+    background-position: 0 -60px;
+}
+.sprite-ford {
+    background-position: 0 -90px;
+}
+.sprite-honda {
+    background-position: 0 -120px;
+}
+.sprite-peugeot {
+    background-position: 0 -150px;
+}
+.sprite-hyundai {
+    background-position: 0 -180px;
+}
+.sprite-renault {
+    background-position: 0 -210px;
+}
+.sprite-toyota {
+    background-position: 0 -240px;
+}
+.sprite-volkswagen {
+    background-position: 0 -270px;
+}
+.sprite-mitsubishi {
+    background-position: 0 -300px;
+}
+.sprite-jac-motors {
+    background-position: 0 -330px;
+}
+.bannerofertas{
+	width:643px;
+	height:150px;
+	margin-left:30px;
+	margin-top:-13px;
+}
+ 
+.blocoCarro{
+	margin-top:11px;
+	padding:6px;
+ }
+ header{
+   height:115px;
+ }
+ 
+ 
+.box_skitter .container_skitter{
+	 width:643px  !important;
+	 height:150px !important;
+ }
+ .box_skitter .box_skitter_large{
+  width:644px !important;
+ }
+
+ 
+ .border_box{
+	padding:2px 3px !important;
+	width:484px !important;
+	height:361px !important;
+}
+.box_skitter_detalhe .next_button {
+	display: none;
+}
+.destaqueboxdir{
+	height:161px;
+}
+.tabcarac {
+	width: 235px;
+	margin-top:-6px;
+}
+.titulo_oferta{
+	font-family:helvetica;
+	font-size:19px;
+	margin-top:10px;
+}
+.revenda{
+	width: 112%; 
+}
+.aoligar{
+	margin-left: 132px;position:absolute;margin-top: -21px; color:#303030;
+}
+.destaques{
+	height: 68px; margin-left: 31px;
+}
+.popular {
+	margin-left:19px;
+}
+
+.bannermeio{
+	margin-left:17px;
+	width:717px;
+	overflow:hidden;
+}
+.bannertopo1{ 
+	width:953px;
+	overflow:hidden;
+	margin-bottom:6px;
+	height:90px;
+}
+.bannertopo2{ 
+	width:953px;
+	overflow:hidden; s
+}
+.destaque_home{
+ 
+}
+.boxfundo{
+ width: 150px;height:65px;float:left;margin-left:3px;margin-top:5px;padding:3px;
+}
+.btfilt{
+	margin-right: -19px !important;
+}
+
+.preco_busca {
+  background: rgba(0, 0, 0, 0) url("../images/fundo_preco_anuncio.jpg") no-repeat scroll 0 0;
+  color: #ffffff;
+  float: right;
+  margin-right: -217px;
+  margin-top: -6px;
+  position: relative;
+  width: 130px;
+  z-index: 9995;
+  height: 50px;
+}
+
+@-moz-document url-prefix(){
+	.preco_busca {
+	  margin-top: 10px;
+	}
+}
+
+.preco_ofertas {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+.bg-busca.planoNitroHome img {
+  max-width: 180px;
+}

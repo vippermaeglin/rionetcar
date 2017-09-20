@@ -1,0 +1,53 @@
+ /* tutorial */
+
+input, textarea { 
+	border: solid 1px #96A6C5;
+	outline: 0;
+	color:#303030;
+	font: normal 22px/100% Verdana, Tahoma, sans-serif;
+	width: 547px;
+	background: none repeat scroll 0 0 #F6F7FA; 
+	height:14px;
+	background:#F4F5F9;
+	width:212px; 
+	height:18px;
+	font-size:12px; 
+	font-family:verdana;
+	padding-left:18px;
+	padding-right:17px;
+	margin-right:8px;
+	padding-top:7px;
+	padding-bottom:7px;
+	
+	}
+
+select { 
+	width: 400px;
+	line-height: 150%;
+	color:#303030;
+	border:1px solid #96A6C5; 
+	background:none repeat scroll 0 0 #F6F7FA;
+	font-size:15px; 
+	font-family:verdana;
+	margin-left:0px;
+	padding:6px;
+	overflow:auto;
+	height:34px;
+	
+	}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+	border-color: #C9C9C9;  
+	}
+ 
+.submit input {
+	width: auto;
+	padding: 9px 15px;
+	background: #617798;
+	border: 0;
+	font-size: 14px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}

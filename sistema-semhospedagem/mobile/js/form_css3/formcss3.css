@@ -1,0 +1,47 @@
+ /* tutorial */
+
+input, textarea { 
+	padding: 7px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 12px/100% arial;
+	width: 547px;  
+	}
+
+textarea { 
+	width: 400px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+	}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+	border-color: #C9C9C9; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+	}
+ 
+.submit input {
+	width: auto;
+	padding: 9px 15px;
+	background: #617798;
+	border: 0;
+	font-size: 14px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+
+	
+	
+
+select {
+    border: 1px solid #bbbbbb !important;
+    border-radius: 5px !important;
+    display: block;
+    font-size: 14px;
+    height: 28px;
+    margin-right: 0 !important;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}

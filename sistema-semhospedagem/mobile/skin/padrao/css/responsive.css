@@ -1,0 +1,854 @@
+
+.containerM {
+	display: block;
+}
+
+dl {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+
+.large-btns_nav.next {
+    background-position: right 50%;
+    left: auto;
+    right: 0;
+}
+
+.large-btns_nav {
+	background: #000 url("../images/themes.gif") no-repeat scroll left 50%;
+	bottom: 0;
+	left: 0;
+	opacity: 0.6;
+	overflow: hidden;
+	position: absolute;
+	text-indent: -9999px;
+	top: 51px;
+	width: 38px;
+	z-index: 3;
+	height: 35px;
+	margin-top: 25%;
+}
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}	
+
+#slider3-pager li{
+	margin-right: 5px;
+	float: left;
+}
+
+#slider3-pager {
+	margin-left: 6%;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+@media only screen 
+and (max-width : 986px) {
+	
+	html, 
+	body {  
+		width: 100% !important;
+		max-width: 100% !important; 
+		min-width: 100% !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		font-family: Helvetica,Arial,sans-serif;
+	}
+	
+	.row,
+	.containerM	{
+		width: 95%;
+		margin: 0 auto;
+	}
+	
+	.row {
+		margin-bottom: 15px;
+	}
+	
+	.hidden {
+		display: none;
+	}
+	
+	.headerM {
+		position: absolute;
+		width: 90%;
+	}
+	
+	.logo {
+		width: 75%;
+		float: left;
+		margin-top: 10px;
+	}
+	
+	.logo img {
+		max-width: 80%;
+	}
+	
+	.navigation {
+		float: right;
+		margin-top: 20px;
+		width: 25%;
+		text-align: right;
+	}
+	
+	.navigation img {
+		max-width: 50%;
+	}
+	
+	.navigationMobile {
+		background: #F8F8FF;
+		position: relative;
+		top: 75px;
+		width: 100%;
+	}
+	
+	.navigationMobile a {
+		color: #666;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 25px;
+	}
+	
+	.navigationMobile ul li {
+		width: 96%;
+		text-align: left;
+		padding-left: 5px;
+	}
+	
+	.navigationMobile li {
+		border-bottom: 1px solid #DDD;
+		padding: 5px;
+	}
+	
+	.navigationMobile li:hover {
+		background: #FFFFFF;
+	}
+	
+	.navigationLogout {
+		float: right;
+	}
+	
+	.linkPanel {
+		background: #D3D3D3;
+	}
+	
+	.titlePage {
+		background: #f58634;
+		border-radius: 2px;
+		height: 35px;
+		margin: 0 auto;
+		position: relative;
+		top: 85px;
+		width: 100%;
+		overflow:hidden;
+	}
+	
+	.titlePage p {
+		color: #fff;
+		font-weight: bold;
+		margin: 0;
+		padding-top: 7px;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 17px;
+	}
+	
+	.destaquesMobile {
+		position: relative;
+		top: 90px;
+		width: 100%;
+	}
+	
+	.itemMobile {
+		width: 100%;
+		border: 1px solid #DDD;
+		margin-bottom: 5px;
+		border-radius: 2px;
+	}
+	
+	.boxFigureMobile {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	.boxFigureMobile img {
+		max-width: 100%;
+	}
+	
+	.boxContentMobile {
+		padding: 5px;
+		max-height: 55px;
+		font-size: 15px;
+		text-align: center;
+	}
+	
+	.boxContentAnoModelo,
+	.boxContentText {
+		font-weight: bold;
+	}
+	
+	.revistaMobile,
+	.buscaMobile {
+		width: 100%;
+		position: relative;
+		top: 95px;
+	}
+	
+	.buscaMobile {
+		top: 90px;
+		position: relative;
+	}
+	
+	.buscaMobile select {
+		font-size: 13px;
+		margin-top: 5px;
+		width: 100%;
+	}
+	
+	.buscaMobile label {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	
+	.rowForm {
+		height: 55px;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		overflow: hidden;
+		width: 100%;
+	}
+	
+	.linkNavForm {
+		width: 100%;
+		height: 10px;
+	}
+	
+	.linkNavForm a {
+		color: #666;
+		font-size: 13px;
+		float: right;
+		text-align: right;
+	}
+	
+	.btnSubmit {
+		background: #0F5578;
+		color: #FFFFFF;
+		width: 100%;
+		border-radius: 5px;
+		border: 1px solid #0F5578;
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding: 12px;
+	}
+	
+	.itemMagazineMobile {
+		width: 96%;
+		border: 1px solid #DDD;
+		border-radius: 2px;
+		margin-bottom: 5px;
+		padding: 5px;
+	}
+	
+	.itemMagazineMobile span {
+		color: #5c9e0d;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	.itemMagazineMobile img {
+		max-width: 100%;
+	}
+	
+	.textMagazine {
+		font-size: 14px;
+		margin: 5px 0;
+		height: 35px;
+		overflow: hidden;
+	}
+	
+	.rodapeM {
+		background: #333333;
+		padding: 10px;
+		position: relative;
+		top: 90px;
+	}
+	
+	.titleFooter p {
+		color: #ffffff;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	.linksItemFooter a {
+		line-height: 22px;
+		font-size: 14px;
+		color: #FFFFFF;
+	}
+	
+	.itemSearch {
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		margin-bottom: 5px;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	
+	.itemSearchDescription {
+		padding: 15px;
+	}
+	
+	.itemTitulo {
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.itemImage {
+		float: left;
+		width: 100%;
+	}
+	
+	.itemImage img {
+		max-width: 100%;
+	}
+	
+	.itemDescription {
+		width: 100%;
+		top: 10px;
+		position: relative;
+	}
+	
+	.itemDescription p {
+		font-size: 14px;
+		margin: 0 0 8px;
+	}
+	
+	.itemPartner {
+		width: 100%;
+	}
+	
+	.itemTitle,
+	.itemCity {
+		font-size: 14px;
+		font-weight: bold;
+		position: relative;
+		top: 10px;
+	}
+	
+	.itemTitulo h4 {
+		color: #C5170E;
+	}
+	
+	.linkPartner {
+		font-size: 14px;
+		font-weight: bold;
+		margin: 0;
+		text-decoration: underline;
+		color: #0F5578;
+	}
+	
+	.btnActions {
+		margin-left: 4%;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	
+	.viewPhone,
+	.viewOffer {
+		background: #C5170E;
+		color: #ffffff;
+		padding: 8px;
+		border-radius: 3px;
+		border: 1px solid #c5170e;
+		width: 45%;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	
+	.precoOfertas {
+		margin: 0;
+		line-height: 25px;
+	}
+	
+	.resultSearch {
+		position: relative;
+		top: 90px;
+	}
+	
+	.itemOrder {
+		width: 100%;
+		top: 97px;
+		position: relative;
+	}
+	
+	.itemOrder select {
+		font-size: 13px;
+		font-weight: bold;
+		padding: 3px;
+		width: 100%;
+	}
+	
+	.rowDescription {
+		width: 100%;
+	}
+	
+	.descriptionOffer,
+	.descriptionArticle,
+	.relatedArticles,
+	.listResales,
+	.divFormAuth,
+	.contentPage,
+	.listProposals,
+	.listPlans {
+		width: 100%;
+		top: 90px;
+		position: relative;
+	}
+	
+	span.textInfo {
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 24px;
+	}
+	
+	.borderList {
+		border-top: 1px solid #ddd;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		position: relative;
+		top: 5px;
+	}
+	
+	.textDescriptionOffer,
+	.textDescriptionArticle	{
+		color: #666;
+		font-size: 15px;
+		line-height: 22px;
+	}
+	
+	.priceOffer {
+		color: #C30102;
+		font-size: 16px;
+	}
+	
+	.formProposta {
+		position: relative;
+		top: 100px;
+		width: 100%;
+	}
+	
+	.formProposta input,
+	.formProposta textarea {
+		width: 100%;
+		padding: 8px;
+		border-radius: 3px;
+	}
+	
+	.formProposta label {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	
+	.formContent {
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	
+	.formButton {
+		background: #fd6d25;
+		border-radius: 5px;
+		padding: 10px;
+		text-align: center;
+		width: 93%;
+	}
+	
+	.formButton a {
+		color: #FFFFFF;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	
+	.resumeArticle {
+		margin: 0;
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 22px;
+	}
+	
+	.tipArticle {
+		border: 1px solid #ddd;
+		border-radius: 3px;
+		overflow: hidden;
+		padding: 10px;
+		width: 92%;
+	}
+
+	.tipArticle p {
+		font-size: 13px;
+	}
+	
+	.tipArticle img,
+	.textDescriptionArticle img,
+	.relatedArticles img,
+	.imageResales img	{
+		max-width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.tipArticleTitle {
+		font-weight: bold;
+		text-align: center;
+		font-size: 15px;
+	}
+	
+	.resumeArticle img {
+		margin-bottom: 10px;
+		margin-top: 10px;
+		max-width: 100%;
+	}
+	
+	.relatedArticles li {
+		border: 1px dashed #808080;
+		border-left: none;
+		border-right: none;
+		margin-bottom: 10px;
+		border-top: none;
+	}
+	
+	.relatedArticles p {
+		font-size: 13px;
+		font-weight: bold;
+		margin: 0;
+	}
+	
+	.listResales li {
+		border: 1px solid #d8d8d8;
+		border-radius: 3px;
+		margin-bottom: 5px;
+		padding: 6px;
+		width: 95%;
+	}
+	
+	.titleResales {
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		color: #5c9e0d;
+		text-transform: uppercase;
+	}
+	
+	.descriptionResales {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	
+	.linkStock {
+		color: #1A426A;
+		font-weight: bold;
+		text-decoration: underline;
+		width: 100%;
+		float: left;
+	}
+	
+	.imageResales {
+		text-align: center;
+	}
+	
+	.linkPage {
+		text-decoration: underline;
+	}
+	
+	.divFormAuth input,
+	.divFormAuth select,
+	.divFormAuth textarea {
+		border-radius: 3px;
+		width: 95%;
+		height: 20px;
+	}
+	
+	.divFormAuth select {
+		height: 35px;
+		width: 100%;
+	}
+	
+	.formContent label {
+		font-weight: bold;
+		font-size: 13px;
+	}
+	
+	.titleForm {
+		background: #5c9e0d;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	
+	.titleForm p {
+		color: #fff;
+		font-weight: bold;
+		font-size: 15px;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 0;
+	}
+	
+	.linksItemFooter.lastList {
+		border-bottom: 1px dashed #FFF;
+		padding-bottom: 5px;
+	}	
+	
+	.linksItemFooter.firstList {
+		padding-top: 5px;
+	}
+	
+	.contentPage p {
+		margin: 0;
+		font-size: 14px;
+	}
+	
+	.listProposals li,
+	.listPlans li {
+		border: 1px solid #ddd;
+		border-radius: 3px;
+		height: auto;
+		margin-bottom: 0;
+		padding: 10px;
+		line-height: 20px;
+	}
+	
+	.listPlans li {
+		border: none;
+	}
+	
+	.listProposals p,
+	.listPlans p {
+		margin: 0;
+		font-size: 15px;
+		line-height: 19px;
+	}
+	
+	.listProposals h2,
+	.listPlans h2 {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	
+	.listPlans p {
+		line-height: 26px;
+		padding-left: 12%;
+	}
+	
+	p.pricePlan {
+		border-bottom: 1px solid #ddd;
+		color: #dd1e3f;
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 13px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	.blueButton {
+		background: #19416A;
+		margin-top: 15px;
+	}
+	
+	.destaque {
+		background: url("../images/check_premium.png") no-repeat scroll 0 0;
+	}
+	
+	.basico {
+		background: url("../images/check_basic.png") no-repeat scroll 0 0;
+	}
+	
+	.listPlans h2 {
+		font-size: 18px;
+		margin-bottom: 25px;
+		color: #18406A;
+	}
+	
+	.classupgrade {
+		text-align: left;
+		float: left;
+		width: auto;
+	}
+	
+	.ptotal {
+		color: #E13C4C;
+		float: left;
+		font-size: 17px;
+		line-height: 40px;
+		margin-top: -28px;
+		text-transform: uppercase;
+	}
+	
+	h2 {
+		color: #5c9e0d;
+		font-size: 14px;
+		margin: 0;
+		text-transform: uppercase;
+		font-weight: bold;
+		height: 25px;
+		cursor: none;
+	}
+}
+
+@media only screen 
+and (min-width : 300px)
+and (max-width : 410px) {
+	
+	.navigationMobile {
+		top: 85px;
+		margin-bottom: 10px;
+	}
+
+	.logo img {
+		max-width: 60%;
+	}
+
+	.navigationMobile ul li {
+		width: 96.5%
+	}	
+}
+
+@media only screen 
+and (min-width : 410px)
+and (max-width : 600px) {
+
+	.navigationMobile {
+		top: 90px;
+		margin-bottom: 10px;
+	}	
+
+	.logo img {
+		max-width: 65%;
+	}
+	
+	.navigationMobile ul li {
+		width: 96.5%
+	}	
+}
+
+@media only screen 
+and (min-width : 550px)
+and (max-width : 986px) {
+	
+	.logo {
+		bottom: 10px;
+		position: relative;
+	}
+
+	.logo img {
+		max-width: 60%;
+	}
+	
+	.navigationMobile {
+		top: 90px;
+		margin-bottom: 10px;
+	}
+	
+	.navigationMobile ul li {
+		width: 98.5%
+	}
+	
+	.divFormAuth input,
+	.divFormAuth select,
+	.divFormAuth textarea {
+		width: 97%;
+	}
+	
+	.tipArticle {
+		width: 96%;
+	}
+}
+
+@media only screen 
+and (min-width : 700px)
+and (max-width : 986px) {
+	
+	.logo {
+		bottom: 10px;
+		position: relative;
+	}	
+
+	.logo img {
+		max-width: 45%;
+	}
+	
+	.navigationMobile {
+		top: 90px;
+		margin-bottom: 10px;
+	}
+	
+	.navigationMobile ul li {
+		width: 98.5%
+	}
+	
+	.tipArticle {
+		width: 97%;
+	}
+}
+
+
+@media only screen 
+and (min-width : 800px)
+and (max-width : 986px) {
+
+	.logo {
+		bottom: 10px;
+		position: relative;
+	}
+	
+	.logo img {
+		max-width: 40%;
+	}
+
+	.navigationMobile {
+		top: 85px;
+		margin-bottom: 10px;
+	}
+	
+	.navigationMobile ul li {
+		width: 98.5%
+	}
+}
