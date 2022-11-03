@@ -1,4 +1,4 @@
-<img src="https://scontent.fplu3-1.fna.fbcdn.net/v/t1.0-9/21078418_282069032275507_8149718954570693186_n.png?oh=8575ae66b217a2dce837d24fc9b5862d&oe=5A563827" alt="Self-Driving Car" width="800px">
+<img src="rionetcar.gif" width="960" alt="Example Video" align="middle"/>
 
 # RioNetCar #
 * [www.rionetcar.com.br](http://www.rionetcar.com.br)
